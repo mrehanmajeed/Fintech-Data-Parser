@@ -1,1 +1,49 @@
- 
+# ================================
+# Financial Data Parser - v1.0.0
+# Requirements Specification
+# ================================
+
+# Core Data Processing
+pandas==2.2.2
+numpy==1.26.4
+openpyxl==3.1.2
+python-dateutil==2.9.0
+sqlalchemy==2.0.29  # Enhanced SQLite support
+
+# Interactive Dashboard
+streamlit==1.36.0
+plotly==5.22.0
+
+# Performance Benchmarking
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# Development & Testing
+pytest==8.1.1
+ipython==8.22.2
+jupyter==1.0.0
+
+# Decimal Precision Handling
+pydecimal==0.3.1
+
+# ================================
+# Installation Notes:
+# pip install -r requirements.txt
+# ================================
+
+## Installation
+```bash
+git clone https://github.com/yourusername/financial-data-parser.git
+cd financial-data-parser
+pip install -r requirements.txt
+
+# ================================
+# Running Components
+# ================================
+Main Dashboard: streamlit run examples/dashboard.py
+
+Benchmark Suite: python scripts/run_benchmark.py
+
+Core Tests: pytest tests/ -v
+
+Run End-to-End Pipeline: python examples/basic_usage.py
