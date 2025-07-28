@@ -1,0 +1,8 @@
+Operation,Time (s)
+End-to-End Pipeline,5.586704969406128
+ExcelProcessor.load_files,3.776434898376465
+TypeDetector.detect_all,1.971482515335083
+FormatParser.parse_amount_vectorized,0.013512611389160156
+DataStorage.store,0.007698535919189453
+ExcelProcessor.get_sheet_info,0.0037298202514648438
+DataStorage.query_range,0.0030930042266845703
